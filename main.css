@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 16px 0;
+    background-color: #3b0056;
+    color: #ecf0f1;
+}
+
+header h1,
+section h2, h3, form button{
+    font-weight: normal;
+    font-family: "Rowdies" ;
+}
+
+body, input, textarea{
+    font-family: "Roboto", sans-serif;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+header nav li a{
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px 0;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+section img {
+    margin-right: 32px;
+}
+
+.container img {
+    height: 600px;
+}
+
+#sobremim{
+    background-color: #861db6;
+    color: #ecf0f1;
+}
+
+#ferramentas h2, #contato h2{
+    color: #3b0056;
+}
+
+#ferramentas, #contato{
+    background-color: #fff;
+}
+
+#contato .container{
+    color:#000
+}
+
+section h2,
+article .container h2 {
+    margin-bottom: 16px;
+}
+
+.ferramentas img{
+    height: 160px;
+    padding: 16px 0;
+    margin-bottom: 16px;
+}
+
+#ferramentas p{
+    color:#000
+}
+
+#ferramentas li {
+    display: inline;
+    flex-wrap: wrap;  
+}
+
+.ferramentas{
+    width: 1366px;
+    margin: 0 auto;
+    padding: 32px 0;
+}
+
+.ferramentas article{
+    padding: 16px;
+    margin: 0 auto;
+}
+
+.cursos, article .cursos, a{
+    width: 1366px;
+    margin: 0 auto;
+    padding: 32px 0;
+}
+
+#cursos .container{
+    display: inline-block;
+    justify-content: space-between;
+    padding: 16px 0;
+    margin-top: auto;
+}
+
+
+#cursos h2, p, a{
+    color: #ecf0f1;
+    padding: auto;    
+}
+
+#cursos a{
+    margin-right: 16px;
+    margin-top: 16px;
+}
+
+#cursos{
+    background-color: #861db6
+}
+
+.social-icons a {
+    margin: 14px;
+    text-decoration: none;
+    color: #000;
+    font-size: 28px;
+}
+
+#contato .container{
+    display: block;
+    justify-content: space-between;
+}
+
+form input, form textarea, form button{
+    display: block;
+    width: 350px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+.metodos-contatos{
+    display: flex;
+    justify-content: space-between;    
+}
+
+section h3{
+    margin-bottom: 28px;
+    margin-left: 10px;
+    font-size: 32px;
+}
+
+form button{
+    background-color: #861db6;
+    color: #ecf0f1;
+    border:none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #3b0056;
+}
+
+input:focus, textarea:focus{
+    outline-color: #3b0056;
+}
+
+footer{
+    background-color: #3b0056;
+    color: #ecf0f1;
+    padding: 16px;
+}
+
+.repositorio-icons a{
+    color: #000;
+    margin: 14px;   
+}  
+
+
+
+
+
